@@ -1,0 +1,10 @@
+# NuGet
+packages/
+*.nupkg
+
+# Test results
+[Tt]est[Rr]esults/
+
+# Build
+bin/
+obj/
