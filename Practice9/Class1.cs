@@ -35,6 +35,11 @@ namespace Practice9
                 throw new ArgumentException("уроки не должны быть больше 15");
             }
 
+            if (lesson < 0)
+            {
+                throw new ArgumentException("уроки не должны быть меньше 0");
+            }
+
             TimeSpan current = TimeSpan.FromHours(8);
 
             for (int i = 1; i <= lesson; i++)

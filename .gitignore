@@ -2,8 +2,9 @@
 packages/
 *.nupkg
 
-# Test results
+# Test results, .vs и т.д.
 [Tt]est[Rr]esults/
+.vs/
 
 # Build
 bin/
